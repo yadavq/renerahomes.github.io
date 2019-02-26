@@ -74,4 +74,10 @@ a{
 	height: 600px;
 	z-index: 2;
 }
+#tenant img{
+	width: 120%;
+}
+#landlord img{
+	width: 120%;
+}
 }
