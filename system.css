@@ -1,15 +1,47 @@
 .landing{
 	height: 600px;
+	background-image: url("image/Background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	font-family: 'Arvo', serif;
+}
+h2{
+	font-family: 'Arvo', serif;
+	color: white;
+}
+h3{
+	font-family: 'Arvo', serif;
+}
+h4{
+	font-family: 'Arvo', serif;
+}
+h5{
+	font-family: 'Arvo', serif;
+	color: white;
+}
+h6{
+	font-family: 'Arvo', serif;
+}
+p{
+	font-family: 'Arvo', serif;
+}
+#drop{
+	margin-top: 5px;
+}
+#navi img{
+	 margin-top: 10px;
+}
+.landing h3{
+	color: white;
+}
+.landing h4{
+	color: white;
 }
 .main{
 	color: green;
-}
-.tenant{
-	height: 1500px;
-}
-.logo{
-	width: 300px;
-	height: 250px;
 }
 .phone_main{
 	position: absolute;
@@ -17,34 +49,29 @@
 	left: 900px;
 	width: 300px;
 	height: 600px;
+	z-index: 2;
 }
-.phone{
+a{
+	text-decoration: none;
+}
+.contact img{
+	width: 200px;
+	height: 200px;
+}
+#email{
+	width: 200px;
+}
+.app{
+	margin-top: 150px;
+}
+
+@media screen and (max-width:640px){
+.phone_main{
+	position: absolute;
+	top: 300px;
+	left: 900px;
 	width: 300px;
 	height: 600px;
-	margin-top: 700px;
-	margin-left: 700px;
+	z-index: 2;
 }
-.lsignup{
-	width: 400px;
-	height: 450px;
-	position: absolute;
-	top: 1350px;
-	left: 650px;
-	border-radius: 3%;
-}
-.location{
-	position: absolute;
-	top: 1200px;
-	left: 970px;
-	width: 300px;
-	height: 300px;
-	border-radius: 3%;
-}
-.room{
-	position: absolute;
-	top: 1700px;
-	left: 500px;
-	width: 300px;
-	height: 300px;
-	border-radius: 3%;
 }
