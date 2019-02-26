@@ -37,3 +37,16 @@ h6{
 p{
 	font-family: 'Arvo', serif;
 }
+@media screen and (max-width:640px){
+.tenant_landing img{
+	width: 100%;
+}
+#tenant_details #image{
+	margin-top: 50px;
+	width: 100%;
+}
+#tenant_details #second_image{
+	margin-top: 100px;
+	width: 120%;
+}
+}
